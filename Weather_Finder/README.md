@@ -2,41 +2,14 @@
 #  Django Weather Application
 
 This weather application is built using Django, requests and openweathermap, here users can get weather information by entering the city name
-## Requirements
-`api_key` is required to run this project, to get `api_key` follow the below steps
-* Create an account in **[openweathermap.org](https://openweathermap.org/)**
-* After creating account **[click here](https://home.openweathermap.org/api_keys)** to go to openweathermap api_keys section here you can generate a new `api_key` or stick with default `api_key`
-## Run Locally
+## Screenshots
 
-Clone the project
+<img width="1685" height="855" alt="Screenshot 2025-07-30 082739" src="https://github.com/user-attachments/assets/5924ae86-d667-46c4-99a2-860f909e25f2" />
+<img width="1495" height="789" alt="Screenshot 2025-07-30 082947" src="https://github.com/user-attachments/assets/8c1c450e-06b3-4432-9a13-22cde4371438" />
+<img width="1535" height="843" alt="Screenshot 2025-07-30 083013" src="https://github.com/user-attachments/assets/f7807b1e-b993-497b-960d-f0c63a7e7529" />
 
-```bash
-  git clone https://github.com/Shivakumar1V/Django-Weather-Application
-```
+#Team Size : 1
+Devineni Venkata Rahul 
 
-Install dependencies
 
-```bash
-  pip install -r requirements.txt
-```
 
-* Now open `views.py` file which is in `home/views.py` and enter your **openweathermap** `api_key` in `api_key = "your api_key"` section and save the file
-
-Run the below commands
-```bash 
-  python manage.py makemigrations
-  python manage.py migrate
-```
-
-Start the server
-
-```bash
-  python manage.py runserver
-```
-
-It will run the application on [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
-
-**Yeah!** Now the application is ready to use  
-Open your browser and go to **[http://127.0.0.1:8000/](http://127.0.0.1:8000/)** and enjoy the application
-
-Deployed in pythonanywhere : https://saiharish821.pythonanywhere.com/
